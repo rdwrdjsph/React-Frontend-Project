@@ -1,0 +1,109 @@
+.tableList {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    table-layout: fixed;
+}
+
+.thList {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: #CCCCCC;
+}
+
+.tdList {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    border-top: none;
+    border-bottom: none;
+    width: 33%;
+}
+
+.trList:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bordered {
+    border: 2px solid black !important;
+  }
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    color: #000;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: #BFBFBF;
+    padding: 14px 121px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+li a.active {
+    color: black;
+    background-color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.modal-content {
+    border: 2px solid black !important;
+  }
+  
+.modal-header {
+    border-bottom: 2px solid black !important;
+    padding: 10px !important;
+    height: 50px;
+  }
+
+.modal-size{
+    width: 10rem;
+    height: 50px;
+}
+
+.border-modal{
+    border-bottom: 1px solid black !important;
+}
+
+.btn-close {
+    opacity: 1;
+    margin-left: 0 !important;
+    border: 2px solid black;
+  }
